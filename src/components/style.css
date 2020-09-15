@@ -1,0 +1,15 @@
+.app {
+    display: flex;
+    flex-direction: row;
+}
+
+.app .navigation {
+    width: 25%;
+}
+
+.app .content {
+    width: 75%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}

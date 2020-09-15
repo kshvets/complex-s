@@ -1,0 +1,26 @@
+.header {
+	display: flex;
+	flex-direction: column;
+}
+
+.header a {
+	display: inline-block;
+	height: 56px;
+	line-height: 56px;
+	padding: 0 15px;
+	min-width: 50px;
+	text-align: center;
+	background: rgba(255,255,255,0);
+	text-decoration: none;
+	color: #000;
+	will-change: background-color;
+}
+
+.header a:hover,
+.header a:active {
+	background: rgba(190, 0, 0, 0.4);
+}
+
+.header a.active {
+	background: rgba(255, 1, 1, 0.4);
+}
