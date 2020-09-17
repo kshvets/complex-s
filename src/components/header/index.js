@@ -4,11 +4,11 @@ import style from './style.css';
 
 const Header = () => (
 	<header class={style.header}>
-		<Link activeClassName={style.active} href="/undefined-on-click">Undefined on click error</Link>
-		<Link activeClassName={style.active} href="/not-supported-feature">Not supported feature error</Link>
-		<Link activeClassName={style.active} href="/cors">CORS request error</Link>
-		<Link activeClassName={style.active} href="/type-error">Type error</Link>
-		<Link activeClassName={style.active} href="/handled-error">Handled error</Link>
+		<Link activeClassName={style.active} href="/s-test/undefined-on-click">Undefined on click error</Link>
+		<Link activeClassName={style.active} href="/s-test/not-supported-feature">Not supported feature error</Link>
+		<Link activeClassName={style.active} href="/s-test/cors">CORS request error</Link>
+		<Link activeClassName={style.active} href="/s-test/type-error">Type error</Link>
+		<Link activeClassName={style.active} href="/s-test/handled-error">Handled error</Link>
 	</header>
 );
 

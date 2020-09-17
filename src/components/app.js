@@ -12,6 +12,8 @@ import CORS from '../routes/cors';
 import TypeError from '../routes/type-error';
 import HandledError from '../routes/handled-error';
 
+
+
 import * as Sentry from '@sentry/browser';
 
 Sentry.init({
@@ -26,11 +28,11 @@ const App = () => (
 		<div class={style.content}>
 			<Router>
 				<Undefined path="/" />
-				<UndefinedOnClick path="/undefined-on-click" />
-				<NotSupportedFeature path="/not-supported-feature" />
-				<CORS path="/cors" />
-				<TypeError path="/type-error" />
-				<HandledError path="/handled-error" />
+				<UndefinedOnClick path="/s-test/undefined-on-click" />
+				<NotSupportedFeature path="/s-test/not-supported-feature" />
+				<CORS path="/s-test/cors" />
+				<TypeError path="/s-test/type-error" />
+				<HandledError path="/s-test/handled-error" />
 			</Router>
 		</div>
 	</div>
