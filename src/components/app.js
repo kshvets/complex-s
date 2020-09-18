@@ -36,6 +36,7 @@ const App = () => (
 				<HandledError path="/s-test/handled-error" />
 			</Router>
 		</div>
+		<div></div>
 	</div>
 )
 
