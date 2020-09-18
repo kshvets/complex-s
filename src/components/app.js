@@ -18,7 +18,7 @@ import * as Sentry from '@sentry/browser';
 
 Sentry.init({
   dsn: 'https://601c5393f21f40de9250cf38c8c0d473@o447782.ingest.sentry.io/5433439',
-  release: "error-app@v1.0.0",
+  release: "error-app@v1.0.1",
 });
 
 const App = () => (
