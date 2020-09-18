@@ -1,8 +1,11 @@
 import {useEffect} from "preact/hooks";
 
 const UndefinedOnClick = () => {
+
 	function clickHandler() {
-		someUndefinedFunction();
+		let obj = {};
+		obj.someFunction();
+		//someUndefinedFunction();
 	}
 
 	return (
