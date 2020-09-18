@@ -1,10 +1,7 @@
 import {useEffect} from "preact/hooks";
 
 const HandledError = () => {
-	function clickHandler() {
-		let v = {};
-		v.clickUndefined();
-		
+	function clickHandler() {	
 		try{
 			let v = {};
 			v.clickUndefined();
