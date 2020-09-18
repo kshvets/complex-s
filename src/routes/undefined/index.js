@@ -2,7 +2,9 @@ import {useEffect} from "preact/hooks";
 
 const Undefined = () => {
 	useEffect(() => {
-		someUndefinedFunction();
+		let obj = {};
+		obj.someFunction();
+		//someUndefinedFunction();
 	});
 
 	return (
