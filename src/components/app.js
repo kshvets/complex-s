@@ -17,8 +17,8 @@ import HandledError from '../routes/handled-error';
 import * as Sentry from '@sentry/browser';
 
 Sentry.init({
-  dsn: 'https://41a2636e8ebb4c869671e0cd4782144c@o447782.ingest.sentry.io/5428100',
-  release: "test-app@v1.0.1",
+  dsn: 'https://601c5393f21f40de9250cf38c8c0d473@o447782.ingest.sentry.io/5433439',
+  release: "error-app@v1.0.0",
 });
 
 const App = () => (
